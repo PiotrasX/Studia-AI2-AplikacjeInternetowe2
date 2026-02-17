@@ -1,4 +1,4 @@
-# 📘 Studia – AI1 – Aplikacje Internetowe 2
+# 📘 Studia – AI2 – Aplikacje Internetowe 2
 
 Repozytorium zawiera rozwiązania zadań opracowane w ramach przedmiotu **Aplikacje Internetowe 2**, realizowanego na Uniwersytecie Rzeszowskim podczas siódmego (7) semestru studiów inżynierskich na kierunku Informatyka.  
 

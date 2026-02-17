@@ -14,8 +14,8 @@ Repozytorium zawiera rozwiązania zadań opracowane w ramach przedmiotu **Aplika
 
 ## ⚙️ Wykorzystane technologie
 
-- `Technologie:` HTML5, CSS3, JavaScript (ES2020+), SQLite 3, Node.js 22.  
-- `Frameworki:` Express.js 5, Vue.js 3, Vue Router 4, Vite, Pinia, Swagger 3.  
+- `Technologie:` HTML5, CSS3, JavaScript (ES2020+), Node.js 22, SQLite 3.  
+- `Frameworki:` Express.js 5, Vue.js 3, Vue Router 4, Vite 7, Tailwind CSS 4, Flowbite 3.  
 - `Środowiska programistyczne (IDE):` Visual Studio Code.  
 
 ---

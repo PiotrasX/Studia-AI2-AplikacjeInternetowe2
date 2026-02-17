@@ -8,7 +8,7 @@ Repozytorium zawiera rozwiązania zadań opracowane w ramach przedmiotu **Aplika
 
 ## 📁 Struktura repozytorium
 
-- `Zadania/Realizacja projektu` – Projekt obejmuje stworzenie nowoczesnej aplikacji internetowej typu REST API + SPA do zarządzania wycieczkami, rezerwacjami, użytkownikami oraz zasobami geograficznymi (kontynenty, kraje). Backend jest warstwą serwerową opartą na Node.js i Express.js. Odpowiada za logikę biznesową, obsługę operacji CRUD, uwierzytelnianie JWT, middleware autoryzacyjne oraz komunikację z bazą danych SQLite. Frontend to jednostronicowa aplikacja kliencka (SPA) zbudowana w Vue 3. Odpowiada za interfejs użytkownika, routing, zarządzanie stanem (Pinia) oraz komunikację z API poprzez zapytania HTTP.  
+- `Zadania/Realizacja projektu` – Projekt obejmuje stworzenie nowoczesnej aplikacji internetowej typu REST API + SPA do zarządzania wycieczkami, rezerwacjami, użytkownikami oraz zasobami geograficznymi (kontynenty, kraje). Backend jest warstwą serwerową opartą na Node.js i Express.js. Odpowiada za logikę biznesową, obsługę operacji CRUD, uwierzytelnianie JWT, middleware autoryzacyjne oraz komunikację z bazą danych SQLite. Frontend to jednostronicowa aplikacja kliencka (SPA) zbudowana w Vue. Odpowiada za interfejs użytkownika, routing, zarządzanie stanem (Pinia) oraz komunikację z API poprzez zapytania HTTP.  
 
 ---
 

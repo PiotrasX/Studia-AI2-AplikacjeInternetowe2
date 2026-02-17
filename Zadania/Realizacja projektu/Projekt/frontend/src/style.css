@@ -1,0 +1,122 @@
+@import "tailwindcss";
+@import "flowbite/src/themes/default";
+@import "flowbite-vue/index.css";
+
+@plugin "flowbite/plugin";
+
+@source "../node_modules/flowbite";
+@source "../node_modules/flowbite-vue";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+    --color-bg: #f0f0f0;
+    --color-bg-alt: #ffffff;
+    --color-bg-box: #e8f1fb;
+    --color-bg-box2: #f4e5ff;
+    --color-bg-box3: #fff4d7;
+    --color-bg-table: #ecfafa;
+    --color-bg-table-th: #97b4b4;
+    --color-bg-table-td1: #cef2f2;
+    --color-bg-table-td2: #d0e7e7;
+    --color-text: #1c1c1c;
+    --color-text-muted: #555555;
+    --color-border: #aeaeae;
+    --color-strong: #0b04da;
+    --color-accent: #0481da;
+    --color-accent2: #96550b;
+    --color-accent3: #0fa11e;
+    --color-accent-edit: #d8a50e;
+    --color-accent-delete: #bc0505;
+    --color-accent-table: #0a85dc;
+    --color-accent-hover: #0160a4;
+    --color-accent-hover2: #714410;
+    --color-accent-hover3: #067712;
+    --color-accent-hover-edit: #bb8d02;
+    --color-accent-hover-delete: #9a0505;
+    --color-accent-hover-table: #095d9a;
+
+    --color-card-status-oczekujacy: #8d6301;
+	--color-card-status-zatwierdzony: #078407;
+	--color-card-status-zakonczony: #858585;
+	--color-card-status-anulowany: #7c0707;
+	--color-status-oczekujacy: #a87500;
+	--color-status-zatwierdzony: #139513;
+	--color-status-zakonczony: #555454;
+	--color-status-anulowany: #961111;
+	--bg-status-oczekujacy: rgba(194, 136, 0, 0.35);
+	--bg-status-zatwierdzony: rgba(26, 156, 26, 0.35);
+	--bg-status-zakonczony: rgba(59, 59, 59, 0.35);
+	--bg-status-anulowany: rgba(137, 5, 5, 0.35);
+
+    --radius-md: 8px;
+    --radius-xmd: 12px;
+    --radius-lg: 16px;
+    --transition: 0.1s ease;
+}
+
+.dark {
+    --color-bg: #121212;
+    --color-bg-alt: #232323;
+    --color-bg-box: #031e3d;
+    --color-bg-box2: #210039;
+    --color-bg-box3: #403100;
+    --color-bg-table: #0b3131;
+    --color-bg-table-th: #0b5151;
+    --color-bg-table-td1: #71b5b5;
+    --color-bg-table-td2: #709c9c;
+    --color-text: #eeeeee;
+    --color-text-muted: #d3d3d3;
+    --color-border: #5a5a5a;
+    --color-strong: #219ff9;
+    --color-accent: #3690ff;
+    --color-accent2: #754e21;
+    --color-accent3: #16bd27;
+    --color-accent-edit: #cda83a;
+    --color-accent-delete: #d61d1d;
+    --color-accent-table: #0061df;
+    --color-accent-hover: #57a3ff;
+    --color-accent-hover2: #8e602b;
+    --color-accent-hover3: #07cf1b;
+    --color-accent-hover-edit: #dbbd63;
+    --color-accent-hover-delete: #e83939;
+    --color-accent-hover-table: #6faffe;
+
+    --color-card-status-oczekujacy: #cb8f02;
+	--color-card-status-zatwierdzony: #0cc60c;
+	--color-card-status-zakonczony: #b6b6b6;
+	--color-card-status-anulowany: #da0a0a;   
+	--color-status-oczekujacy: #694b11;
+	--color-status-zatwierdzony: #0a5e0a;
+	--color-status-zakonczony: #ffffff;
+	--color-status-anulowany: #560606;
+	--bg-status-oczekujacy: rgba(255, 198, 88, 0.43);
+	--bg-status-zatwierdzony: rgba(101, 244, 101, 0.43);
+	--bg-status-zakonczony: rgba(228, 228, 228, 0.43);
+	--bg-status-anulowany: rgba(239, 95, 95, 0.43);
+
+    --radius-md: 8px;
+    --radius-xmd: 12px;
+    --radius-lg: 16px;
+    --transition: 0.1s ease;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    transition: background-color var(--transition), color var(--transition);
+}
+
+a {
+    color: var(--color-accent);
+    text-decoration: none;
+    transition: color var(--transition);
+}
+
+a:hover {
+    color: var(--color-text);
+}

@@ -1,0 +1,128 @@
+[2025-11-25T10:12:06.823Z] USER: user1@example.com | ACTION: LOGIN | DETAILS: Zalogowano użytkownika: Jan Kowalski
+[2025-11-25T10:12:22.023Z] USER: user1@example.com | ACTION: LOGOUT | DETAILS: Wylogowano użytkownika: Jan Kowalski
+[2025-11-25T10:12:41.568Z] USER: admin@example.com | ACTION: LOGIN | DETAILS: Zalogowano użytkownika: Admin Root
+[2025-11-25T10:12:46.012Z] USER: admin@example.com | ACTION: LOGOUT | DETAILS: Wylogowano użytkownika: Admin Root
+[2025-11-25T10:12:57.652Z] USER: admin@example.com | ACTION: LOGIN | DETAILS: Zalogowano użytkownika: Admin Root
+[2025-11-25T10:13:06.407Z] USER: admin@example.com | ACTION: UPDATE_TRIP | DETAILS: Zaktualizowano wycieczkę z ID 1
+[2025-11-25T10:13:17.506Z] USER: admin@example.com | ACTION: DELETE_TRIP | DETAILS: Usunięto wycieczkę z ID 2
+[2025-11-25T10:13:28.351Z] USER: admin@example.com | ACTION: BOOK_TRIP | DETAILS: Użytkownik z ID 1 zarezerwował wycieczkę z ID 3
+[2025-11-25T10:14:04.699Z] USER: admin@example.com | ACTION: ADD_TRIP | DETAILS: Dodano wycieczkę z ID 68
+[2025-11-25T10:14:26.039Z] USER: admin@example.com | ACTION: UPDATE_COUNTRY | DETAILS: Zaktualizowano kraj z ID 1
+[2025-11-25T10:14:35.312Z] USER: admin@example.com | ACTION: DELETE_COUNTRY | DETAILS: Usunięto kraj z ID 2
+[2025-11-25T10:15:15.926Z] USER: admin@example.com | ACTION: ADD_COUNTRY | DETAILS: Dodano kraj z ID 142
+[2025-11-25T10:15:43.780Z] USER: admin@example.com | ACTION: UPDATE_CONTINENT | DETAILS: Zaktualizowano kontynent z ID 1
+[2025-11-25T10:15:57.888Z] USER: admin@example.com | ACTION: ADD_CONTINENT | DETAILS: Dodano kontynent z ID 8
+[2025-11-25T10:16:04.018Z] USER: admin@example.com | ACTION: DELETE_CONTINENT | DETAILS: Usunięto kontynent z ID 8
+[2025-11-25T10:16:16.231Z] USER: admin@example.com | ACTION: ADD_USER | DETAILS: Dodano użytkownika z ID: 9
+[2025-11-25T10:16:23.536Z] USER: admin@example.com | ACTION: UPDATE_USER | DETAILS: Zaktualizowano użytkownika z ID 9
+[2025-11-25T10:16:30.014Z] USER: admin@example.com | ACTION: DELETE_USER | DETAILS: Usunięto użytkownika z ID 9
+[2025-11-25T10:16:48.991Z] USER: admin@example.com | ACTION: ADD_RESERVATION | DETAILS: Dodano rezerwację z ID 15
+[2025-11-25T10:16:59.840Z] USER: admin@example.com | ACTION: UPDATE_RESERVATION | DETAILS: Zaktualizowano rezerwację z ID 15
+[2025-11-25T10:17:08.893Z] USER: admin@example.com | ACTION: DELETE_RESERVATION | DETAILS: Usunięto rezerwację z ID 15
+[2025-11-25T10:17:11.788Z] USER: admin@example.com | ACTION: LOGOUT | DETAILS: Wylogowano użytkownika: Admin Root
+[2025-11-25T10:17:35.193Z] USER: debniak@onet.pl | ACTION: REGISTER | DETAILS: Zarejestrowano użytkownika: Piotr Dębowy
+[2025-11-25T13:18:45.727Z] USER: admin@example.com | ACTION: LOGIN | DETAILS: Zalogowano użytkownika: Admin Root
+[2025-11-25T14:06:10.952Z] USER: admin@example.com | ACTION: GENERATE_REPORT_CONTINENTS | DETAILS: Wygenerowano raport PDF: continents
+[2025-11-25T14:11:42.848Z] USER: admin@example.com | ACTION: GENERATE_REPORT_CONTINENTS | DETAILS: Wygenerowano raport PDF: continents
+[2025-11-25T14:28:40.762Z] USER: admin@example.com | ACTION: GENERATE_REPORT_CONTINENTS | DETAILS: Wygenerowano raport PDF: continents
+[2025-11-25T15:13:48.044Z] USER: admin@example.com | ACTION: GENERATE_REPORT_CONTINENTS | DETAILS: Wygenerowano raport PDF: continents
+[2025-11-25T15:14:21.719Z] USER: admin@example.com | ACTION: ADD_CONTINENT | DETAILS: Dodano kontynent z ID 9
+[2025-11-25T15:14:22.857Z] USER: admin@example.com | ACTION: GENERATE_REPORT_CONTINENTS | DETAILS: Wygenerowano raport PDF: continents
+[2025-11-25T15:18:53.315Z] USER: admin@example.com | ACTION: LOGIN | DETAILS: Zalogowano użytkownika: Admin Root
+[2025-11-25T15:18:58.867Z] USER: admin@example.com | ACTION: GENERATE_REPORT_CONTINENTS | DETAILS: Wygenerowano raport PDF: continents
+[2025-11-25T15:59:05.177Z] USER: admin@example.com | ACTION: GENERATE_REPORT_CONTINENTS | DETAILS: Wygenerowano raport PDF: continents
+[2025-11-25T16:05:13.009Z] USER: admin@example.com | ACTION: GENERATE_REPORT_CONTINENTS | DETAILS: Wygenerowano raport PDF: continents
+[2025-11-25T16:21:21.433Z] USER: admin@example.com | ACTION: GENERATE_REPORT_CONTINENTS | DETAILS: Wygenerowano raport PDF: continents
+[2025-11-25T16:22:01.799Z] USER: admin@example.com | ACTION: DELETE_CONTINENT | DETAILS: Usunięto kontynent z ID 9
+[2025-11-25T16:33:05.756Z] USER: admin@example.com | ACTION: GENERATE_REPORT_CONTINENTS | DETAILS: Wygenerowano raport PDF: continents
+[2025-11-25T16:42:15.244Z] USER: admin@example.com | ACTION: GENERATE_REPORT_USERS | DETAILS: Wygenerowano raport PDF: users
+[2025-11-25T16:43:08.536Z] USER: admin@example.com | ACTION: GENERATE_REPORT_COUNTRIES | DETAILS: Wygenerowano raport PDF: countries
+[2025-11-25T16:43:18.801Z] USER: admin@example.com | ACTION: GENERATE_REPORT_USERS | DETAILS: Wygenerowano raport PDF: users
+[2025-11-25T16:43:45.239Z] USER: admin@example.com | ACTION: GENERATE_REPORT_TRIPS | DETAILS: Wygenerowano raport PDF: trips
+[2025-11-25T16:45:29.323Z] USER: admin@example.com | ACTION: GENERATE_REPORT_RESERVATIONS | DETAILS: Wygenerowano raport PDF: reservations
+[2025-11-25T17:25:35.029Z] USER: admin@example.com | ACTION: LOGIN | DETAILS: Zalogowano użytkownika: Admin Root
+[2025-11-25T17:25:40.125Z] USER: admin@example.com | ACTION: GENERATE_REPORT_COUNTRIES | DETAILS: Wygenerowano raport PDF: countries
+[2025-11-25T17:42:09.779Z] USER: admin@example.com | ACTION: GENERATE_REPORT_COUNTRIES | DETAILS: Wygenerowano raport PDF: countries
+[2025-11-25T20:11:00.088Z] USER: admin@example.com | ACTION: LOGIN | DETAILS: Zalogowano użytkownika: Admin Root
+[2025-11-25T20:11:09.387Z] USER: admin@example.com | ACTION: GENERATE_REPORT_COUNTRIES | DETAILS: Wygenerowano raport PDF: countries
+[2025-11-25T20:16:46.309Z] USER: admin@example.com | ACTION: DELETE_COUNTRY | DETAILS: Usunięto kraj z ID 141
+[2025-11-25T20:18:13.238Z] USER: admin@example.com | ACTION: GENERATE_REPORT_COUNTRIES | DETAILS: Wygenerowano raport PDF: countries
+[2025-11-25T20:26:06.144Z] USER: admin@example.com | ACTION: GENERATE_REPORT_TRIPS | DETAILS: Wygenerowano raport PDF: trips
+[2025-11-25T20:32:35.569Z] USER: admin@example.com | ACTION: GENERATE_REPORT_CONTINENTS | DETAILS: Wygenerowano raport PDF: continents
+[2025-11-25T20:43:29.947Z] USER: admin@example.com | ACTION: GENERATE_REPORT_CONTINENTS | DETAILS: Wygenerowano raport PDF: continents
+[2025-11-25T20:48:34.384Z] USER: admin@example.com | ACTION: GENERATE_REPORT_COUNTRIES | DETAILS: Wygenerowano raport PDF: countries
+[2025-11-25T20:56:10.249Z] USER: admin@example.com | ACTION: GENERATE_REPORT_COUNTRIES | DETAILS: Wygenerowano raport PDF: countries
+[2025-11-25T21:00:20.790Z] USER: admin@example.com | ACTION: GENERATE_REPORT_CONTINENTS | DETAILS: Wygenerowano raport PDF: continents
+[2025-11-25T21:06:30.205Z] USER: admin@example.com | ACTION: GENERATE_REPORT_CONTINENTS | DETAILS: Wygenerowano raport PDF: continents
+[2025-11-25T21:14:00.985Z] USER: admin@example.com | ACTION: GENERATE_REPORT_CONTINENTS | DETAILS: Wygenerowano raport PDF: continents
+[2025-11-25T21:17:36.944Z] USER: admin@example.com | ACTION: GENERATE_REPORT_COUNTRIES | DETAILS: Wygenerowano raport PDF: countries
+[2025-11-25T21:23:02.031Z] USER: admin@example.com | ACTION: GENERATE_REPORT_CONTINENTS | DETAILS: Wygenerowano raport PDF: continents
+[2025-11-25T21:23:28.316Z] USER: admin@example.com | ACTION: GENERATE_REPORT_COUNTRIES | DETAILS: Wygenerowano raport PDF: countries
+[2025-11-25T21:23:43.925Z] USER: admin@example.com | ACTION: GENERATE_REPORT_CONTINENTS | DETAILS: Wygenerowano raport PDF: continents
+[2025-11-25T21:24:05.861Z] USER: admin@example.com | ACTION: GENERATE_REPORT_USERS | DETAILS: Wygenerowano raport PDF: users
+[2025-11-25T21:24:25.435Z] USER: admin@example.com | ACTION: GENERATE_REPORT_TRIPS | DETAILS: Wygenerowano raport PDF: trips
+[2025-11-25T21:26:06.385Z] USER: admin@example.com | ACTION: GENERATE_REPORT_USERS | DETAILS: Wygenerowano raport PDF: users
+[2025-11-25T21:26:24.716Z] USER: admin@example.com | ACTION: GENERATE_REPORT_RESERVATIONS | DETAILS: Wygenerowano raport PDF: reservations
+[2025-11-25T21:26:37.995Z] USER: admin@example.com | ACTION: GENERATE_REPORT_CONTINENTS | DETAILS: Wygenerowano raport PDF: continents
+[2025-11-25T21:27:51.843Z] USER: admin@example.com | ACTION: GENERATE_REPORT_TRIPS | DETAILS: Wygenerowano raport PDF: trips
+[2025-11-26T09:05:49.124Z] USER: admin@example.com | ACTION: LOGIN | DETAILS: Zalogowano użytkownika: Admin Root
+[2025-11-26T09:24:18.345Z] USER: admin@example.com | ACTION: GENERATE_REPORT_TRIPS | DETAILS: Wygenerowano raport PDF: trips
+[2025-11-26T09:25:03.270Z] USER: admin@example.com | ACTION: GENERATE_REPORT_CONTINENTS | DETAILS: Wygenerowano raport PDF: continents
+[2025-11-26T09:26:51.213Z] USER: admin@example.com | ACTION: GENERATE_REPORT_COUNTRIES | DETAILS: Wygenerowano raport PDF: countries
+[2025-11-26T09:26:54.157Z] USER: admin@example.com | ACTION: GENERATE_REPORT_CONTINENTS | DETAILS: Wygenerowano raport PDF: continents
+[2025-11-26T09:28:22.880Z] USER: admin@example.com | ACTION: GENERATE_REPORT_COUNTRIES | DETAILS: Wygenerowano raport PDF: countries
+[2025-11-26T09:29:18.431Z] USER: admin@example.com | ACTION: GENERATE_REPORT_CONTINENTS | DETAILS: Wygenerowano raport PDF: continents
+[2025-11-26T09:33:55.707Z] USER: admin@example.com | ACTION: GENERATE_REPORT_CONTINENTS | DETAILS: Wygenerowano raport PDF: continents
+[2025-11-26T09:36:05.511Z] USER: admin@example.com | ACTION: GENERATE_REPORT_COUNTRIES | DETAILS: Wygenerowano raport PDF: countries
+[2025-11-26T09:37:16.194Z] USER: admin@example.com | ACTION: DELETE_COUNTRY | DETAILS: Usunięto kraj z ID 142
+[2025-11-26T09:38:07.272Z] USER: admin@example.com | ACTION: GENERATE_REPORT_COUNTRIES | DETAILS: Wygenerowano raport PDF: countries
+[2025-11-26T09:48:04.532Z] USER: admin@example.com | ACTION: GENERATE_REPORT_TRIPS | DETAILS: Wygenerowano raport PDF: trips
+[2025-11-26T09:50:46.803Z] USER: admin@example.com | ACTION: GENERATE_REPORT_TRIPS | DETAILS: Wygenerowano raport PDF: trips
+[2025-11-26T09:51:12.306Z] USER: admin@example.com | ACTION: GENERATE_REPORT_COUNTRIES | DETAILS: Wygenerowano raport PDF: countries
+[2025-11-26T09:55:15.455Z] USER: admin@example.com | ACTION: GENERATE_REPORT_TRIPS | DETAILS: Wygenerowano raport PDF: trips
+[2025-11-26T09:56:56.807Z] USER: admin@example.com | ACTION: GENERATE_REPORT_CONTINENTS | DETAILS: Wygenerowano raport PDF: continents
+[2025-11-26T09:57:03.946Z] USER: admin@example.com | ACTION: GENERATE_REPORT_COUNTRIES | DETAILS: Wygenerowano raport PDF: countries
+[2025-11-26T09:57:30.428Z] USER: admin@example.com | ACTION: GENERATE_REPORT_TRIPS | DETAILS: Wygenerowano raport PDF: trips
+[2025-11-26T10:02:13.921Z] USER: admin@example.com | ACTION: GENERATE_REPORT_USERS | DETAILS: Wygenerowano raport PDF: users
+[2025-11-26T10:03:23.588Z] USER: admin@example.com | ACTION: GENERATE_REPORT_RESERVATIONS | DETAILS: Wygenerowano raport PDF: reservations
+[2025-11-26T10:06:43.383Z] USER: admin@example.com | ACTION: GENERATE_REPORT_USERS | DETAILS: Wygenerowano raport PDF: userss
+[2025-11-26T10:07:57.025Z] USER: admin@example.com | ACTION: GENERATE_REPORT_RESERVATIONS | DETAILS: Wygenerowano raport PDF: reservations
+[2025-11-26T10:10:53.861Z] USER: admin@example.com | ACTION: GENERATE_REPORT_RESERVATIONS | DETAILS: Wygenerowano raport PDF: reservations
+[2025-11-26T10:11:00.590Z] USER: admin@example.com | ACTION: GENERATE_REPORT_USERS | DETAILS: Wygenerowano raport PDF: users
+[2025-11-26T10:16:29.003Z] USER: admin@example.com | ACTION: GENERATE_REPORT_RESERVATIONS | DETAILS: Wygenerowano raport PDF: reservations
+[2025-11-26T10:18:38.873Z] USER: admin@example.com | ACTION: GENERATE_REPORT_RESERVATIONS | DETAILS: Wygenerowano raport PDF: reservations
+[2025-11-26T10:20:50.836Z] USER: admin@example.com | ACTION: LOGOUT | DETAILS: Wylogowano użytkownika: Admin Root
+[2025-11-26T10:20:59.466Z] USER: user3@example.com | ACTION: LOGIN | DETAILS: Zalogowano użytkownika: Piotr Wiśniewski
+[2025-11-26T10:21:04.668Z] USER: user3@example.com | ACTION: LOGOUT | DETAILS: Wylogowano użytkownika: Piotr Wiśniewski
+[2026-02-14T20:33:47.117Z] USER: user1@example.com | ACTION: LOGIN | DETAILS: Zalogowano użytkownika: Jan Kowalski
+[2026-02-14T20:33:51.822Z] USER: user1@example.com | ACTION: LOGOUT | DETAILS: Wylogowano użytkownika: Jan Kowalski
+[2026-02-14T21:00:07.524Z] USER: admin@example.com | ACTION: LOGIN | DETAILS: Zalogowano użytkownika: Admin Root
+[2026-02-14T21:00:10.951Z] USER: admin@example.com | ACTION: GENERATE_REPORT_TRIPS | DETAILS: Wygenerowano raport PDF: trips
+[2026-02-14T21:00:15.059Z] USER: admin@example.com | ACTION: GENERATE_REPORT_COUNTRIES | DETAILS: Wygenerowano raport PDF: countries
+[2026-02-14T21:00:17.906Z] USER: admin@example.com | ACTION: GENERATE_REPORT_CONTINENTS | DETAILS: Wygenerowano raport PDF: continents
+[2026-02-14T21:00:20.351Z] USER: admin@example.com | ACTION: GENERATE_REPORT_USERS | DETAILS: Wygenerowano raport PDF: users
+[2026-02-14T21:00:22.551Z] USER: admin@example.com | ACTION: GENERATE_REPORT_RESERVATIONS | DETAILS: Wygenerowano raport PDF: reservations
+[2026-02-14T21:00:35.635Z] USER: admin@example.com | ACTION: UPDATE_OWN_PROFILE | DETAILS: Użytkownik z ID 1 zaktualizował własny profil
+[2026-02-14T21:00:41.309Z] USER: admin@example.com | ACTION: LOGOUT | DETAILS: Wylogowano użytkownika: Admin Root
+[2026-02-14T22:11:23.844Z] USER: user1@example.com | ACTION: LOGIN | DETAILS: Zalogowano użytkownika: Jan Kowalski
+[2026-02-14T22:11:52.832Z] USER: user1@example.com | ACTION: BOOK_TRIP | DETAILS: Użytkownik z ID 5 zarezerwował wycieczkę z ID 4
+[2026-02-14T22:12:04.227Z] USER: user1@example.com | ACTION: UPDATE_OWN_PROFILE | DETAILS: Użytkownik z ID 5 zaktualizował własny profil
+[2026-02-14T22:12:19.921Z] USER: user1@example.com | ACTION: LOGOUT | DETAILS: Wylogowano użytkownika: Paweł Kowalski
+[2026-02-14T22:12:26.873Z] USER: admin@example.com | ACTION: LOGIN | DETAILS: Zalogowano użytkownika: Admin Root
+[2026-02-14T22:12:34.918Z] USER: admin@example.com | ACTION: ADD_TRIP | DETAILS: Dodano wycieczkę z ID 71
+[2026-02-14T22:12:51.761Z] USER: admin@example.com | ACTION: UPDATE_TRIP | DETAILS: Zaktualizowano wycieczkę z ID 71
+[2026-02-14T22:13:02.243Z] USER: admin@example.com | ACTION: BOOK_TRIP | DETAILS: Użytkownik z ID 1 zarezerwował wycieczkę z ID 71
+[2026-02-14T22:13:20.934Z] USER: admin@example.com | ACTION: ADD_COUNTRY | DETAILS: Dodano kraj z ID 144
+[2026-02-14T22:13:29.473Z] USER: admin@example.com | ACTION: UPDATE_COUNTRY | DETAILS: Zaktualizowano kraj z ID 144
+[2026-02-14T22:13:38.063Z] USER: admin@example.com | ACTION: DELETE_COUNTRY | DETAILS: Usunięto kraj z ID 144
+[2026-02-14T22:13:41.950Z] USER: admin@example.com | ACTION: ADD_CONTINENT | DETAILS: Dodano kontynent z ID 10
+[2026-02-14T22:13:46.418Z] USER: admin@example.com | ACTION: UPDATE_CONTINENT | DETAILS: Zaktualizowano kontynent z ID 10
+[2026-02-14T22:13:50.060Z] USER: admin@example.com | ACTION: DELETE_CONTINENT | DETAILS: Usunięto kontynent z ID 10
+[2026-02-14T22:14:03.254Z] USER: admin@example.com | ACTION: ADD_USER | DETAILS: Dodano użytkownika z ID: 11
+[2026-02-14T22:14:10.109Z] USER: admin@example.com | ACTION: UPDATE_USER | DETAILS: Zaktualizowano użytkownika z ID 11
+[2026-02-14T22:14:14.199Z] USER: admin@example.com | ACTION: DELETE_USER | DETAILS: Usunięto użytkownika z ID 11
+[2026-02-14T22:14:27.739Z] USER: admin@example.com | ACTION: ADD_RESERVATION | DETAILS: Dodano rezerwację z ID 18
+[2026-02-14T22:14:34.667Z] USER: admin@example.com | ACTION: UPDATE_RESERVATION | DETAILS: Zaktualizowano rezerwację z ID 18
+[2026-02-14T22:14:37.692Z] USER: admin@example.com | ACTION: DELETE_RESERVATION | DETAILS: Usunięto rezerwację z ID 18
+[2026-02-14T22:14:41.371Z] USER: admin@example.com | ACTION: DELETE_RESERVATION | DETAILS: Usunięto rezerwację z ID 17
+[2026-02-14T22:14:47.850Z] USER: admin@example.com | ACTION: DELETE_TRIP | DETAILS: Usunięto wycieczkę z ID 71

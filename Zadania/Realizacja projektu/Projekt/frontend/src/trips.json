@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "name": "Kolorado",
+        "continent": "Ameryka Północna",
+        "period": 7,
+        "description": "Jest wyżynno-górzystym stanem, którego średnia wysokość nad poziomem morza przekracza 2000 m. Najwyższy szczyt Kolorado, Mount Elbert, wznosi się na 4399 m n.p.m.",
+        "price": 29000,
+        "img": "colorado.jpg",
+        "country": "USA"
+    },
+    {
+        "id": 2,
+        "name": "Alaska",
+        "continent": "Ameryka Północna",
+        "period": 10,
+        "description": "Pasmo górskie w Ameryce Północnej w stanie Alaska. Jest to najwyższa część łańcucha Kordylierów z najwyższym szczytem kontynentu - Denali (McKinley) (6194 m n.p.m.).",
+        "price": 42000,
+        "img": "alaska.jpg",
+        "country": "USA"
+    },
+    {
+        "id": 3,
+        "name": "Everest",
+        "continent": "Azja",
+        "period": 7,
+        "description": "Najwyższy szczyt Ziemi (8848 m n.p.m., podaje się też wysokość 8844 (pomiary chińskie) lub 8850 (pomiary amerykańskie), ośmiotysięcznik położony w Himalajach Wysokich, na granicy Nepalu i Tybetu.",
+        "price": 32000,
+        "img": "everest.jpg",
+        "country": "Chiny"
+    },
+    {
+        "id": 4,
+        "name": "Alpy",
+        "continent": "Europa",
+        "period": 6,
+        "description": "Najwyższy łańcuch górski Europy, ciągnący się łukiem od wybrzeża Morza Śródziemnego w okolicy Savony po dolinę Dunaju w okolicach Wiednia.",
+        "price": 24000,
+        "img": "alps.jpg",
+        "country": "Austria"
+    },
+    {
+        "id": 5,
+        "name": "Kilimandżaro",
+        "continent": "Afryka",
+        "period": 10,
+        "description": "Góra w Tanzanii, leżąca przy granicy z Kenią. Jest najwyższą górą Afryki i jedynym miejscem na kontynencie, gdzie śnieg jest całoroczny. ",
+        "price": 35000,
+        "img": "kilimanjaro.jpg",
+        "country": "Tanzania"
+    },
+    {
+        "id": 6,
+        "name": "Tatry",
+        "continent": "Europa",
+        "period": 5,
+        "description": "Najwyższe pasmo w łańcuchu Karpat, również najwyższe między Alpami a Uralem i Kaukazem. Są częścią Łańcucha Tatrzańskiego, w Centralnych Karpatach Zachodnich.",
+        "price": 9500,
+        "img": "tatry.jpg",
+        "country": "Polska"
+    },
+    {
+        "id": 7,
+        "name": "Sudety",
+        "continent": "Europa",
+        "period": 5,
+        "description": "Łańcuch górski na obszarze południowo-zachodniej Polski i północnych Czech, stosunkowo niewielki skrawek znajduje się w Niemczech; najwyższy szczyt Śnieżka - 1603 m n.p.m.",
+        "price": 10500,
+        "img": "sudety.jpg",
+        "country": "Polska"
+    }
+]
